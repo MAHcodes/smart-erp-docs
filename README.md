@@ -1,41 +1,29 @@
-# Website
+# smart-erp-docs
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## how to build
 
-### Installation
-
+1. clone the repo
 ```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+git clone https://github.com/MAHcodes/smart-erp-docs
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
+2. cd into the repo
 ```
-$ yarn build
+cd smart-erp-docs
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
+3. install dependencies
 ```
-$ USE_SSH=true yarn deploy
+npm i
 ```
 
-Not using SSH:
-
+4. build
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
+npm run build
 ```
+this will generate an optimized production build under a new directory `./build/`
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+5. serve the production build
+```
+npm run serve
+```
