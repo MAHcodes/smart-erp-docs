@@ -1,0 +1,8 @@
+{
+  "label": "ERP Core",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "The ERP Core is a powerful and flexible system designed to streamline various business processes. This documentation will guide you on how to create a layout page using the <AgGridLayout> component."
+  }
+}
